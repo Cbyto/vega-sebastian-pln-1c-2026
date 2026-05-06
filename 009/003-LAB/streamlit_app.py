@@ -25,7 +25,9 @@ st.set_page_config(
     layout="wide",
 )
 
-RUTA_CORPUS       = Path("corpus_tp3.csv")
+# RUTA_CORPUS       = Path("corpus_tp3.csv")
+directorio_actual = Path(__file__).parent
+RUTA_CORPUS = directorio_actual / "corpus_tp3.csv"      #Necesario para streamlit por el anidado de carpetas
 COLUMNA_TEXTO     = "texto"
 COLUMNA_GRUPO     = "grupo_comparacion"
 MODELO_SPACY      = "es_core_news_md"
