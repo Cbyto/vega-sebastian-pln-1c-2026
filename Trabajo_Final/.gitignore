@@ -1,0 +1,18 @@
+# =========================================
+# 🔹 PYTHON
+# =========================================
+_pycache__/
+*.py[cod]
+*.pyo
+
+# entornos virtuales
+venv/
+.venv/
+env/
+
+# variables de entorno
+.env
+.env.*
+
+normas/
+data/
