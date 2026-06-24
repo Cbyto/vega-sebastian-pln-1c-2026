@@ -1,0 +1,7 @@
+streamlit
+openai
+anthropic
+pymupdf
+chromadb
+python-dotenv
+SQLAlchemy
